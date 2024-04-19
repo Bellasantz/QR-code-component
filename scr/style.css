@@ -1,0 +1,37 @@
+body {
+    background: linear-gradient(to bottom, #8cb7e5, #FFFFFF, #FFB6C1);
+    font-family: 'Outfit', sans-serif;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.qr-card {
+    max-width: 346px;
+    background-color: var(--white);
+    border-radius: 25px;
+    padding: 15px;
+}
+
+img {
+    width: 100%;
+    border-radius: 10px
+}
+
+.title {
+    font-size: 23px;
+    margin: 15px;
+    text-align: center;
+}
+
+.text {
+    text-align: center;
+    font-size: 15px;
+    margin: 20px;
+    color: var(--primary-medium);
+    font-weight: 400;
+}
